@@ -28,5 +28,17 @@ The analysis of the election show that:
     - Diana DeGette, who received 73.8% of the vote and 272,892 number of votes.
     
 ## Challenge Overview
-
+The chanllenge was to find the counties involved in the election and calculate the turnout of each county.
 ## Challenge Summary
+- The county turnouts were:
+    - Jefferson had 10.5% of the vote and 38,855 number of votes.
+    - Dnever had 82.8% of the vote and 306,055 number of votes.
+    - Jefferson had 6.7% of the vote and 24,801 number of votes.
+- The county with largest turnout:
+    - Denver, with 82.8% of the vote and 306,055 number of votes.
+    
+![Resources/election_analysis_img.PNG](Resources/election_analysis_img.PNG)
+ 
+    
+## Election Audit Summary
+Coding was designed for to be able to reuse on other counties. The only input needed is the source file to have the same data points as ballot ID, county, candidate. We can modify the code to other regions such as municipal by altering the varibles. We can also modifiy the code to be use in historical data by including the year the elections took place or include the canidates party by adding another varible and include it into the calculations.
